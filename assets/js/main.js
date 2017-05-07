@@ -3,7 +3,7 @@ navigator.serviceWorker && navigator.serviceWorker.register('sw.js').then(functi
   console.log('Excellent, registered with scope: ', registration.scope);
 });
 
-document.body.requestFullscreen();
+document.documentElement.requestFullscreen();
 (function($) {
 
 	skel.breakpoints({
