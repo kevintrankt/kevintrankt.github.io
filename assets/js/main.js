@@ -96,7 +96,7 @@ navigator.serviceWorker && navigator.serviceWorker.register('sw.js').then(functi
 						delay: 500,
 						hideOnClick: true,
 						hideOnSwipe: true,
-						resetScroll: true,
+						// resetScroll: true,
 						resetForms: true,
 						side: 'right',
 						target: $body,
