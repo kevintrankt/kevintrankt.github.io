@@ -3,7 +3,7 @@
   "short_name": "Kevin's PWA!",
   "display": "standalone",
   "start_url": "/",
-  "theme_color": "#673ab6",
+  "theme_color": "#db6a60",
   "background_color": "#111111",
   "icons": [
     {
