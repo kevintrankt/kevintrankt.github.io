@@ -2,7 +2,7 @@
   "name": "Kevin's PWA!",
   "short_name": "Kevin's PWA!",
   "display": "standalone",
-  "start_url": "/",
+  "start_url": "/index.html",
   "theme_color": "#db6a60",
   "background_color": "#efefef",
   "prefer_related_applications": true,
