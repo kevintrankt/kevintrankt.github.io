@@ -429,7 +429,7 @@ module.exports = ".data-cards{\n    margin-bottom: 1em;\n    width: 100%;\n\n}\n
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"mdl-card mdl-shadow--2dp data-cards\" id=\"line-chart\">\n  <!-- <div *ngIf=\"chartShown\"> -->\n  <canvas id=\"canvas\">{{ chart }}</canvas>\n  <!-- </div> -->\n</div>\n\n<div class=\"mdl-card mdl-shadow--2dp data-cards\" id=\"table-card\">\n  <table class=\"mdl-data-table mdl-js-data-table  mdl-shadow--2dp\">\n    <thead>\n      <tr>\n        <th class=\"mdl-data-table__cell--non-numeric\">Period</th>\n        <th *ngFor=\"let header of columns\">{{header}}</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr *ngFor=\"let value of data\">\n        <td class=\"mdl-data-table__cell--non-numeric\">{{value.Period}}</td>\n        <td *ngFor=\"let header of columns\">{{value[header]}}</td>\n      </tr>\n    </tbody>\n  </table>\n</div>"
+module.exports = "<div class=\"mdl-card mdl-shadow--2dp data-cards\" id=\"line-chart\">\n  <!-- <div *ngIf=\"chartShown\"> -->\n  <canvas id=\"canvas\">{{ chart }}</canvas>\n  <!-- </div> -->\n</div>\n\n<div class=\"mdl-card mdl-shadow--2dp data-cards\" id=\"table-card\">\n  <table *ngIf=\"data\" class=\"mdl-data-table mdl-js-data-table  mdl-shadow--2dp\">\n    <thead>\n      <tr>\n        <th class=\"mdl-data-table__cell--non-numeric\">Period</th>\n        <th *ngFor=\"let header of columns\">{{header}}</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr *ngFor=\"let value of data\">\n        <td class=\"mdl-data-table__cell--non-numeric\">{{value.Period}}</td>\n        <td *ngFor=\"let header of columns\">{{value[header]}}</td>\n      </tr>\n    </tbody>\n  </table>\n</div>"
 
 /***/ }),
 
