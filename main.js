@@ -471,6 +471,19 @@ var ChartComponent = /** @class */ (function () {
     }
     ChartComponent.prototype.ngOnInit = function () {
     };
+    // tableCallback() {
+    //   $(".editable-cell").keydown(function (e) {
+    //     if (e.keyCode == 13) {
+    //       console.log("keypress")
+    //     }
+    //   });
+    // }
+    ChartComponent.prototype.editCell = function (element, event) {
+        if (event.keyCode == 13) {
+            event.preventDefault();
+            this.updateDataFromTable();
+        }
+    };
     ChartComponent.prototype.updateDataFromTable = function () {
         var newData = [];
         var headers = [];
