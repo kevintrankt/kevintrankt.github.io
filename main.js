@@ -186,7 +186,7 @@ module.exports = "h1 {\n    font-family: 'Cera GR Medium', Fallback, sans-serif 
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"hello-container\">\n  <div id=\"intro\">\n    <h1 id=\"hello\">hello!</h1>\n    <h1 class=\"greeting\">i’m\n      <span id=\"name\">Kevin Tran</span>, a full stack developer with interests in web development, UX/UI, and machine learning.</h1>\n\n    <h2>\n      <a href=\"mailto:kevin.tran.kt@gmail.com\">email</a>\n      <a href=\"\"> resume</a>\n      <a href=\"https://github.com/kevintrankt/\"> github</a>\n      <a href=\"https://www.linkedin.com/in/kevintrankt/\"> linkedin</a>\n      <a href=\"https://www.instagram.com/poop.js/\"> instagram</a>\n    </h2>\n  </div>\n\n  <h3 id=\"credit\">designed & developed by kevin tran 2018</h3>\n\n</div>"
+module.exports = "<div class=\"hello-container\">\n  <div id=\"intro\">\n    <h1 id=\"hello\">hello!</h1>\n    <h1 class=\"greeting\">i’m\n      <span id=\"name\">Kevin Tran</span>, a full stack developer with interests in web development, UX/UI, and machine learning.</h1>\n\n    <h2>\n      <a href=\"mailto:kevin.tran.kt@gmail.com\" target=\"_blank\">email</a>\n      <a href=\"\" target=\"_blank\"> resume</a>\n      <a href=\"https://github.com/kevintrankt/\" target=\"_blank\"> github</a>\n      <a href=\"https://www.linkedin.com/in/kevintrankt/\" target=\"_blank\"> linkedin</a>\n      <a href=\"https://www.instagram.com/poop.js/\" target=\"_blank\"> instagram</a>\n    </h2>\n  </div>\n\n  <h3 id=\"credit\">designed & developed by kevin tran 2018</h3>\n\n</div>"
 
 /***/ }),
 
