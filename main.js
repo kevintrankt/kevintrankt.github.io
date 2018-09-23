@@ -237,7 +237,7 @@ var BioComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "h1 {\n  font-family: 'Cera GR Medium', Fallback, sans-serif !important;\n  color: #5b5b5b;\n  font-size: 2rem;\n}\n\nh2 {\n  font-family: 'Cera GR Regular', Fallback, sans-serif !important;\n  font-size: 1rem;\n  color: #f38181;\n  word-spacing: 2vw;\n  text-align: left;\n}\n\na {\n  text-decoration: none;\n  color: inherit;\n}\n\na:hover {\n  text-decoration: none;\n  color: #3375ae;\n}\n\n.greeting {\n  font-family: 'Cera GR Regular', Fallback, sans-serif !important;\n  max-width: 600px;\n  line-height: 1.5;\n  text-align: left;\n}\n\n.hello-container {\n  position: absolute;\n  height: 100%;\n  width: 100%;\n}\n\n#name {\n  font-family: 'Cera GR Bold', Fallback, sans-serif !important;\n}\n\n#intro {\n  padding: 15vh 8vw 0 8vw;\n}\n\n#credit {\n  font-family: 'Cera GR Light', Fallback, sans-serif !important;\n  position: absolute;\n  bottom: 0px;\n  right: 32px;\n  font-size: 0.8rem;\n  color: #797979;\n  text-align: right;\n  margin: 0;\n}\n"
+module.exports = "h1 {\n  font-family: 'Cera GR Medium', Fallback, sans-serif !important;\n  color: #5b5b5b;\n  font-size: 2rem;\n}\n\nh2 {\n  font-family: 'Cera GR Regular', Fallback, sans-serif !important;\n  font-size: 1rem;\n  color: #f38181;\n  word-spacing: 2vw;\n  text-align: left;\n}\n\na {\n  text-decoration: none;\n  color: inherit;\n}\n\na:hover {\n  text-decoration: none;\n  color: #3375ae;\n}\n\n.greeting {\n  font-family: 'Cera GR Regular', Fallback, sans-serif !important;\n  max-width: 600px;\n  line-height: 1.5;\n  text-align: left;\n}\n\n.hello-container {\n  position: absolute;\n  height: 100%;\n  width: 100%;\n}\n\n.links {\n  z-index: 2;\n}\n\n#name {\n  font-family: 'Cera GR Bold', Fallback, sans-serif !important;\n}\n\n#intro {\n  padding: 15vh 8vw 0 8vw;\n}\n\n#credit {\n  font-family: 'Cera GR Light', Fallback, sans-serif !important;\n  position: absolute;\n  bottom: 0px;\n  right: 32px;\n  font-size: 0.8rem;\n  color: #797979;\n  text-align: right;\n  margin: 0;\n}\n"
 
 /***/ }),
 
@@ -248,7 +248,7 @@ module.exports = "h1 {\n  font-family: 'Cera GR Medium', Fallback, sans-serif !i
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<particles [params]=\"myParams\" [style]=\"myStyle\" [width]=\"width\" [height]=\"height\"></particles>\n<div class=\"hello-container\">\n  <div id=\"intro\">\n    <h1 id=\"hello\">hello!</h1>\n    <h1 class=\"greeting\">i’m\n      <span id=\"name\">Kevin Tran</span>, a full stack developer with interests in web development, UX/UI, and machine\n      learning.</h1>\n\n    <h2 class=\"links\">\n      <a href=\"mailto:kevin.tran.kt@gmail.com\" target=\"_blank\">email</a>\n      <a href=\"https://kevintrankt.com/Kevin_Tran_Resume.pdf\" target=\"_blank\"> resume</a>\n      <a href=\"https://github.com/kevintrankt/\" target=\"_blank\"> github</a>\n      <a href=\"https://www.linkedin.com/in/kevintrankt/\" target=\"_blank\"> linkedin</a>\n      <a href=\"https://www.instagram.com/swaggybars/\" target=\"_blank\"> instagram</a>\n    </h2>\n  </div>\n\n  <h3 id=\"credit\">(under construction)\n    <br>designed & developed by kevin tran 2018</h3>\n\n</div>"
+module.exports = "<particles class=\"particle\" [params]=\"myParams\" [style]=\"myStyle\" [width]=\"width\" [height]=\"height\"></particles>\n\n<div class=\"hello-container\">\n  <div id=\"intro\">\n    <h1 id=\"hello\">hello!</h1>\n    <h1 class=\"greeting\">i’m\n      <span id=\"name\">Kevin Tran</span>, a full stack developer with interests in web development, UX/UI, and machine\n      learning.</h1>\n    <h2 class=\"links\">\n      <a href=\"mailto:kevin.tran.kt@gmail.com\" target=\"_blank\">email</a>\n      <a href=\"https://kevintrankt.com/Kevin_Tran_Resume.pdf\" target=\"_blank\"> resume</a>\n      <a href=\"https://github.com/kevintrankt/\" target=\"_blank\"> github</a>\n      <a href=\"https://www.linkedin.com/in/kevintrankt/\" target=\"_blank\"> linkedin</a>\n      <a href=\"https://www.instagram.com/swaggybars/\" target=\"_blank\"> instagram</a>\n    </h2>\n  </div>\n\n  <h3 id=\"credit\">(under construction)\n    <br>designed & developed by kevin tran 2018</h3>\n</div>"
 
 /***/ }),
 
@@ -352,7 +352,7 @@ var HelloComponent = /** @class */ (function () {
                 }
             },
             interactivity: {
-                detect_on: 'window',
+                detect_on: 'canvas',
                 events: {
                     onhover: {
                         enable: true,
