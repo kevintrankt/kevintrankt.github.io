@@ -237,7 +237,7 @@ var BioComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "h1 {\n    font-family: 'Cera GR Medium', Fallback, sans-serif !important;\n    color: #5B5B5B;\n    font-size: 2rem;\n}\n\nh2{\n    font-family: 'Cera GR Regular', Fallback, sans-serif !important;\n    font-size:1rem;\n    color: #F38181;\n    word-spacing: 2vw;\n    text-align: left;\n}\n\na{\n    text-decoration: none;\n    color: inherit;\n}\n\na:hover{\n    text-decoration: none;\n    color: #3375AE;\n}\n\n.greeting{\n    font-family: 'Cera GR Regular', Fallback, sans-serif !important;\n    max-width: 600px;\n    line-height: 1.5;\n    text-align: left;\n}\n\n.hello-container{\n    height:100%;\n    width:100%;\n}\n\n#name{\n    font-family: 'Cera GR Bold', Fallback, sans-serif !important;\n}\n\n#intro{\n    padding: 15vh 8vw 0 8vw;\n}\n\n#credit{\n    font-family: 'Cera GR Light', Fallback, sans-serif !important;\n    position:absolute;\n    bottom: 0px;\n    right: 32px;\n    font-size: .8rem;\n    color: #797979;\n    text-align: right;\n}\n\n"
+module.exports = "h1 {\n  font-family: 'Cera GR Medium', Fallback, sans-serif !important;\n  color: #5b5b5b;\n  font-size: 2rem;\n}\n\nh2 {\n  font-family: 'Cera GR Regular', Fallback, sans-serif !important;\n  font-size: 1rem;\n  color: #f38181;\n  word-spacing: 2vw;\n  text-align: left;\n}\n\na {\n  text-decoration: none;\n  color: inherit;\n}\n\na:hover {\n  text-decoration: none;\n  color: #3375ae;\n}\n\n.greeting {\n  font-family: 'Cera GR Regular', Fallback, sans-serif !important;\n  max-width: 600px;\n  line-height: 1.5;\n  text-align: left;\n}\n\n.hello-container {\n  position: absolute;\n  height: 100%;\n  width: 100%;\n}\n\n#name {\n  font-family: 'Cera GR Bold', Fallback, sans-serif !important;\n}\n\n#intro {\n  padding: 15vh 8vw 0 8vw;\n}\n\n#credit {\n  font-family: 'Cera GR Light', Fallback, sans-serif !important;\n  position: absolute;\n  bottom: 0px;\n  right: 32px;\n  font-size: 0.8rem;\n  color: #797979;\n  text-align: right;\n}\n"
 
 /***/ }),
 
@@ -248,7 +248,7 @@ module.exports = "h1 {\n    font-family: 'Cera GR Medium', Fallback, sans-serif 
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"hello-container\">\n  <div id=\"intro\">\n    <h1 id=\"hello\">hello!</h1>\n    <h1 class=\"greeting\">i’m\n      <span id=\"name\">Kevin Tran</span>, a full stack developer with interests in web development, UX/UI, and machine\n      learning.</h1>\n\n    <h2>\n      <a href=\"mailto:kevin.tran.kt@gmail.com\" target=\"_blank\">email</a>\n      <a href=\"https://kevintrankt.com/Kevin_Tran_Resume.pdf\" target=\"_blank\"> resume</a>\n      <a href=\"https://github.com/kevintrankt/\" target=\"_blank\"> github</a>\n      <a href=\"https://www.linkedin.com/in/kevintrankt/\" target=\"_blank\"> linkedin</a>\n      <a href=\"https://www.instagram.com/swaggybars/\" target=\"_blank\"> instagram</a>\n    </h2>\n  </div>\n\n  <h3 id=\"credit\">(under construction)\n    <br>designed & developed by kevin tran 2018</h3>\n  <particles [params]=\"myParams\" [style]=\"myStyle\" [width]=\"width\" [height]=\"height\"></particles>\n\n</div>"
+module.exports = "<particles [params]=\"myParams\" [style]=\"myStyle\" [width]=\"width\" [height]=\"height\"></particles>\n<div class=\"hello-container\">\n  <div id=\"intro\">\n    <h1 id=\"hello\">hello!</h1>\n    <h1 class=\"greeting\">i’m\n      <span id=\"name\">Kevin Tran</span>, a full stack developer with interests in web development, UX/UI, and machine\n      learning.</h1>\n\n    <h2 class=\"links\">\n      <a href=\"mailto:kevin.tran.kt@gmail.com\" target=\"_blank\">email</a>\n      <a href=\"https://kevintrankt.com/Kevin_Tran_Resume.pdf\" target=\"_blank\"> resume</a>\n      <a href=\"https://github.com/kevintrankt/\" target=\"_blank\"> github</a>\n      <a href=\"https://www.linkedin.com/in/kevintrankt/\" target=\"_blank\"> linkedin</a>\n      <a href=\"https://www.instagram.com/swaggybars/\" target=\"_blank\"> instagram</a>\n    </h2>\n  </div>\n\n  <h3 id=\"credit\">(under construction)\n    <br>designed & developed by kevin tran 2018</h3>\n\n</div>"
 
 /***/ }),
 
@@ -282,26 +282,21 @@ var HelloComponent = /** @class */ (function () {
     }
     HelloComponent.prototype.ngOnInit = function () {
         this.myStyle = {
-            position: 'fixed',
+            position: 'absolute',
             width: '100%',
-            height: '100%',
-            'z-index': 5,
-            top: 0,
-            left: 0,
-            right: 0,
-            bottom: 0
+            height: '100%'
         };
         this.myParams = {
             particles: {
                 number: {
-                    value: 40,
+                    value: 75,
                     density: {
                         enable: true,
                         value_area: 800
                     }
                 },
                 color: {
-                    value: '#808080'
+                    value: ['#f38181', '#fce38a', '#eaffd0', '#95e1d3']
                 },
                 shape: {
                     type: 'circle',
@@ -311,25 +306,20 @@ var HelloComponent = /** @class */ (function () {
                     },
                     polygon: {
                         nb_sides: 5
-                    },
-                    image: {
-                        src: 'img/github.svg',
-                        width: 100,
-                        height: 100
                     }
                 },
                 opacity: {
-                    value: 0.5,
+                    value: 0.4,
                     random: false,
                     anim: {
                         enable: false,
-                        speed: 1,
-                        opacity_min: 0.1,
+                        speed: 10,
+                        opacity_min: 1,
                         sync: false
                     }
                 },
                 size: {
-                    value: 2,
+                    value: 5,
                     random: true,
                     anim: {
                         enable: false,
@@ -340,14 +330,15 @@ var HelloComponent = /** @class */ (function () {
                 },
                 line_linked: {
                     enable: true,
-                    distance: 300,
-                    color: '#808080',
+                    // distance: 300,
+                    distance: 100,
+                    color: '#000000',
                     opacity: 0.4,
-                    width: 2
+                    width: 1
                 },
                 move: {
                     enable: true,
-                    speed: 12,
+                    speed: 2,
                     direction: 'none',
                     random: false,
                     straight: false,
@@ -368,7 +359,7 @@ var HelloComponent = /** @class */ (function () {
                         mode: 'repulse'
                     },
                     onclick: {
-                        enable: true,
+                        enable: false,
                         mode: 'push'
                     },
                     resize: true
