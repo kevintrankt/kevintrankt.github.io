@@ -91,6 +91,10 @@ MIT
 MIT
 MIT
 
+@angular/service-worker@6.1.8
+MIT
+MIT
+
 angular-particle@1.0.4
 MIT
 MIT
