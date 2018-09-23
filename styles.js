@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/* You can add global styles to this file, and also import other style files */\n@font-face {\n    font-family: 'Cera GR Bold';\n    src: url('CeraGRBold.otf') format('opentype');\n  }\n@font-face {\n    font-family: 'Cera GR Medium';\n    src: url('CeraGRMedium.otf') format('opentype');\n  }\n@font-face {\n    font-family: 'Cera GR Regular';\n    src: url('CeraGR.otf') format('opentype');\n  }\n@font-face {\n    font-family: 'Cera GR Light';\n    src: url('CeraGRLight.otf') format('opentype');\n  }\n::-moz-selection {\n    background: #ffb7b7; /* WebKit/Blink Browsers */\n  }\n::selection {\n    background: #ffb7b7; /* WebKit/Blink Browsers */\n  }\n::-moz-selection {\n    background: #ffb7b7; /* Gecko Browsers */\n  }"
+module.exports = "/* You can add global styles to this file, and also import other style files */\n@font-face {\n  font-family: 'Cera GR Bold';\n  src: url('CeraGRBold.otf') format('opentype');\n}\n@font-face {\n  font-family: 'Cera GR Medium';\n  src: url('CeraGRMedium.otf') format('opentype');\n}\n@font-face {\n  font-family: 'Cera GR Regular';\n  src: url('CeraGR.otf') format('opentype');\n}\n@font-face {\n  font-family: 'Cera GR Light';\n  src: url('CeraGRLight.otf') format('opentype');\n}\n::-moz-selection {\n  background: #ffb7b7; /* WebKit/Blink Browsers */\n}\n::selection {\n  background: #ffb7b7; /* WebKit/Blink Browsers */\n}\n::-moz-selection {\n  background: #ffb7b7; /* Gecko Browsers */\n}\nbody {\n  margin: 0;\n}\n"
 
 /***/ }),
 

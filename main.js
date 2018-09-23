@@ -67,7 +67,7 @@ var AppRoutingModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".page{\n    height:100vh;\n}"
+module.exports = ".page {\n  height: 100vh;\n  margin: 0;\n  padding: 0;\n}\n"
 
 /***/ }),
 
@@ -237,7 +237,7 @@ var BioComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "h1 {\n  font-family: 'Cera GR Medium', Fallback, sans-serif !important;\n  color: #5b5b5b;\n  font-size: 2rem;\n}\n\nh2 {\n  font-family: 'Cera GR Regular', Fallback, sans-serif !important;\n  font-size: 1rem;\n  color: #f38181;\n  word-spacing: 2vw;\n  text-align: left;\n}\n\na {\n  text-decoration: none;\n  color: inherit;\n}\n\na:hover {\n  text-decoration: none;\n  color: #3375ae;\n}\n\n.greeting {\n  font-family: 'Cera GR Regular', Fallback, sans-serif !important;\n  max-width: 600px;\n  line-height: 1.5;\n  text-align: left;\n}\n\n.hello-container {\n  position: absolute;\n  height: 100%;\n  width: 100%;\n}\n\n#name {\n  font-family: 'Cera GR Bold', Fallback, sans-serif !important;\n}\n\n#intro {\n  padding: 15vh 8vw 0 8vw;\n}\n\n#credit {\n  font-family: 'Cera GR Light', Fallback, sans-serif !important;\n  position: absolute;\n  bottom: 0px;\n  right: 32px;\n  font-size: 0.8rem;\n  color: #797979;\n  text-align: right;\n}\n"
+module.exports = "h1 {\n  font-family: 'Cera GR Medium', Fallback, sans-serif !important;\n  color: #5b5b5b;\n  font-size: 2rem;\n}\n\nh2 {\n  font-family: 'Cera GR Regular', Fallback, sans-serif !important;\n  font-size: 1rem;\n  color: #f38181;\n  word-spacing: 2vw;\n  text-align: left;\n}\n\na {\n  text-decoration: none;\n  color: inherit;\n}\n\na:hover {\n  text-decoration: none;\n  color: #3375ae;\n}\n\n.greeting {\n  font-family: 'Cera GR Regular', Fallback, sans-serif !important;\n  max-width: 600px;\n  line-height: 1.5;\n  text-align: left;\n}\n\n.hello-container {\n  position: absolute;\n  height: 100%;\n  width: 100%;\n}\n\n#name {\n  font-family: 'Cera GR Bold', Fallback, sans-serif !important;\n}\n\n#intro {\n  padding: 15vh 8vw 0 8vw;\n}\n\n#credit {\n  font-family: 'Cera GR Light', Fallback, sans-serif !important;\n  position: absolute;\n  bottom: 0px;\n  right: 32px;\n  font-size: 0.8rem;\n  color: #797979;\n  text-align: right;\n  margin: 0;\n}\n"
 
 /***/ }),
 
