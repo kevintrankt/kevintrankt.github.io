@@ -1,0 +1,95 @@
+{
+  "configVersion": 1,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.26c1c7b0e072a70bbf94.js",
+        "/polyfills.2f4a59095805af02bd79.js",
+        "/runtime.a66f828dca56eeb90e02.js",
+        "/styles.e8824d391baaec9d9c61.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/Cera GR Black Italic.otf",
+        "/assets/Cera GR Black.otf",
+        "/assets/Cera GR Bold Italic.otf",
+        "/assets/Cera GR Light Italic.otf",
+        "/assets/Cera GR Medium Italic.otf",
+        "/assets/Cera GR Regular Italic.otf",
+        "/assets/Cera GR Thin Italic.otf",
+        "/assets/Cera GR Thin.otf",
+        "/assets/CeraGR.otf",
+        "/assets/CeraGRBold.otf",
+        "/assets/CeraGRLight.otf",
+        "/assets/CeraGRMedium.otf",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/Cera GR Black Italic.otf": "69d9fee0b94cf9f819ec00bf986d4257d182fd09",
+    "/assets/Cera GR Black.otf": "88301f241cec8cf62b76d84b8951baa4290226d8",
+    "/assets/Cera GR Bold Italic.otf": "5e4149f286b7be73568c23b2461c04667406be32",
+    "/assets/Cera GR Light Italic.otf": "eb7ad73b397fbd140321312a09413525ee989b9d",
+    "/assets/Cera GR Medium Italic.otf": "b3a5c2f796966c7ff6f70c2db22391a04f463832",
+    "/assets/Cera GR Regular Italic.otf": "7f2e9971313992b1088d3d9efcaa5c9585bfdca8",
+    "/assets/Cera GR Thin Italic.otf": "d980f9868ab0269553e4522311ec130789c602b1",
+    "/assets/Cera GR Thin.otf": "cc85f11483564d8a2514b7178946d9c9f699e160",
+    "/assets/CeraGR.otf": "7fd12abcccbe8009339670925f57c80af845b0d7",
+    "/assets/CeraGRBold.otf": "4a7f464f23bac3b7e5d10c02e8c5f837cf1c741a",
+    "/assets/CeraGRLight.otf": "1de7cb61679bec7cc5efe3a727afd2936c90dd6f",
+    "/assets/CeraGRMedium.otf": "cb5e09e58e0d9d9a1520488d285e2bb2f3facba8",
+    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/favicon.ico": "cef5a3d17147d5f18a859b65e5ae9154dc871d2f",
+    "/index.html": "89522094b318781c845254115e76053108b14d35",
+    "/main.26c1c7b0e072a70bbf94.js": "e4075418a34f714757378e1178f661278b39bccf",
+    "/polyfills.2f4a59095805af02bd79.js": "8949bb1b1e302dda246f6ed9c2da703270360b1f",
+    "/runtime.a66f828dca56eeb90e02.js": "078e320cc6fdaf355836c3b1c52b059cdd33fc7e",
+    "/styles.e8824d391baaec9d9c61.css": "5cbfe5ef336d99342cb2a363ed150373e858448c"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
