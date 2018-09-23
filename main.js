@@ -78,7 +78,7 @@ module.exports = ".page{\n    height:100vh;\n}"
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"page\">\n  <app-hello></app-hello>\n</div>\n<app-bio></app-bio>"
+module.exports = "<div class=\"page\">\n  <app-hello></app-hello>\n</div>\n<!-- <app-bio></app-bio> -->"
 
 /***/ }),
 
@@ -134,6 +134,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
 /* harmony import */ var _hello_hello_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./hello/hello.component */ "./src/app/hello/hello.component.ts");
 /* harmony import */ var _bio_bio_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./bio/bio.component */ "./src/app/bio/bio.component.ts");
+/* harmony import */ var angular_particle__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! angular-particle */ "./node_modules/angular-particle/index.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -146,20 +147,14 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 
 
+
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
     AppModule = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
-            declarations: [
-                _app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"],
-                _hello_hello_component__WEBPACK_IMPORTED_MODULE_4__["HelloComponent"],
-                _bio_bio_component__WEBPACK_IMPORTED_MODULE_5__["BioComponent"]
-            ],
-            imports: [
-                _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
-                _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"]
-            ],
+            declarations: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"], _hello_hello_component__WEBPACK_IMPORTED_MODULE_4__["HelloComponent"], _bio_bio_component__WEBPACK_IMPORTED_MODULE_5__["BioComponent"]],
+            imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"], angular_particle__WEBPACK_IMPORTED_MODULE_6__["ParticlesModule"]],
             providers: [],
             bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]]
         })
@@ -178,7 +173,7 @@ var AppModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/* h4{\n    font-family: 'Cera GR Medium', Fallback, sans-serif !important;\n    font-size: .75rem;\n    color: #F38181;\n    letter-spacing: .2rem;\n    text-align: right;\n    height:auto;\n    float:left;\n    border:none;\n}\n\np{\n    width: 80%;\n    border:none;\n    font-family: 'Cera GR Light', Fallback, sans-serif !important;\n    font-size: 1rem;\n    color: #353535;\n    text-align: left;\n    line-height:1.5;\n    padding-left: 200px;\n    max-width: 50vw;\n}\n\n\n.bio-title{\n    flex-shrink: 0;\n    width: 200px;\n    margin-right: 70px;\n    font-family: 'Cera GR Medium', Fallback, sans-serif !important;\n    font-size: .75rem;\n    color: #F38181;\n    text-transform: uppercase;\n    text-align: right;\n    font-weight: 700;\n    letter-spacing: 2px;\n}\n\n\n\n.bio{\n    display: flex;\n    -webkit-box-pack: center;\n    -ms-flex-pack: center;\n    justify-content: center;\n    padding: 50px 15vw 0px 25vw;\n}\n.bold{\n    font-family: 'Cera GR Medium', Fallback, sans-serif !important;\n\n}\n\n@media screen and (max-width: 1280px){\n    .bio {\n        padding-right: 100px;\n    }\n}\n\n@media screen and (max-width: 1024px){\n    .bio {\n        padding: 50px;\n    }\n}\n\n@media screen and (max-width: 768px){\n    .bio {\n        display:block;\n    }\n    p{\n        padding-left: 0px;\n        display:block;\n        max-width: none;\n        width:100%;\n\n    }\n    h4{\n\n        text-align: left;\n        float:none;\n    }\n}\n\n@media screen and (max-width: 480px){\n    .bio {\n        padding:50px 35px;;\n    }\n} */\n\n.bio{\n    margin-left:20vw;\n    margin-right:10vw;\n}\n\n.bio-title{\n    float: left;\n    margin-right:50px;\n    width:200px;\n    text-align: right;\n    font-family: 'Cera GR Medium', Fallback, sans-serif !important;\n    font-size: .75rem;\n    color: #F38181;\n    letter-spacing: .2rem;\n    line-height:.6;\n\n}\n\n.bio-content{\n    /* max-width: 600px; */\n    float: left;\n    width: calc(100% - 200px);\n    font-family: 'Cera GR Light', Fallback, sans-serif !important;\n    font-size: 1rem;\n    color: #353535;\n    text-align: left;\n    line-height:1.5;\n    width:100%;\n    max-width: 50vw;\n}\n\np{\n}\n\n.lists{\n    width:100%;\n\n}\n\n.lists1{\n    display:inline-block;\n    width: 25%;\n    background-color: red;\n    height:50px;\n}\n\n.lists2{\n    display:inline-block;\n    width: 25%;\n    background-color: blue;\n    height:50px;\n\n}\n\n.lists3{\n    display:inline-block;\n    width: 25%;\n    background-color: red;\n    height:50px;\n\n}\n\n.lists4{\n    display:inline-block;\n    width: 25%;\n    background-color:pink;\n    height:50px;\n\n}\n\n.bold{\n    font-family: 'Cera GR Medium', Fallback, sans-serif !important;\n}\n\n@media screen and (max-width: 1280px){\n    .bio {\n        margin-left:10vw;\n        margin-right:5vw;\n        }\n}\n\n@media screen and (max-width: 1024px){\n    .bio {\n\n        margin-left:1vw;\n        margin-right:1vw;\n        width:100%;\n        }\n    .bio-content{\n        width:100%;\n        max-width:none;\n    }\n\n    .bio-title{\n        float: none;\n        width:100%;\n        text-align: left;\n        padding-bottom: 3vh;\n    }\n}\n\n@media screen and (max-width: 768){\n\n\n}\n"
+module.exports = "/* h4{\n    font-family: 'Cera GR Medium', Fallback, sans-serif !important;\n    font-size: .75rem;\n    color: #F38181;\n    letter-spacing: .2rem;\n    text-align: right;\n    height:auto;\n    float:left;\n    border:none;\n}\n\np{\n    width: 80%;\n    border:none;\n    font-family: 'Cera GR Light', Fallback, sans-serif !important;\n    font-size: 1rem;\n    color: #353535;\n    text-align: left;\n    line-height:1.5;\n    padding-left: 200px;\n    max-width: 50vw;\n}\n\n\n.bio-title{\n    flex-shrink: 0;\n    width: 200px;\n    margin-right: 70px;\n    font-family: 'Cera GR Medium', Fallback, sans-serif !important;\n    font-size: .75rem;\n    color: #F38181;\n    text-transform: uppercase;\n    text-align: right;\n    font-weight: 700;\n    letter-spacing: 2px;\n}\n\n\n\n.bio{\n    display: flex;\n    -webkit-box-pack: center;\n    -ms-flex-pack: center;\n    justify-content: center;\n    padding: 50px 15vw 0px 25vw;\n}\n.bold{\n    font-family: 'Cera GR Medium', Fallback, sans-serif !important;\n\n}\n\n@media screen and (max-width: 1280px){\n    .bio {\n        padding-right: 100px;\n    }\n}\n\n@media screen and (max-width: 1024px){\n    .bio {\n        padding: 50px;\n    }\n}\n\n@media screen and (max-width: 768px){\n    .bio {\n        display:block;\n    }\n    p{\n        padding-left: 0px;\n        display:block;\n        max-width: none;\n        width:100%;\n\n    }\n    h4{\n\n        text-align: left;\n        float:none;\n    }\n}\n\n@media screen and (max-width: 480px){\n    .bio {\n        padding:50px 35px;;\n    }\n} */\n\n.bio{\n    margin-left:20vw;\n    margin-right:10vw;\n}\n\n.bio-title{\n    float: left;\n    margin-right:50px;\n    width:200px;\n    text-align: right;\n    font-family: 'Cera GR Medium', Fallback, sans-serif !important;\n    font-size: .75rem;\n    color: #F38181;\n    letter-spacing: .2rem;\n    line-height:.6;\n\n}\n\n.bio-content{\n    /* max-width: 600px; */\n    float: left;\n    width: calc(100% - 200px);\n    font-family: 'Cera GR Light', Fallback, sans-serif !important;\n    font-size: 1rem;\n    color: #353535;\n    text-align: left;\n    line-height:1.5;\n    width:100%;\n    max-width: 50vw;\n}\n\np{\n}\n\n.lists{\n    width:100%;\n\n}\n\n.lists1{\n    display:inline-block;\n    width: 25%;\n    background-color: red;\n    height:50px;\n}\n\n.lists2{\n    display:inline-block;\n    width: 25%;\n    background-color: blue;\n    height:50px;\n\n}\n\n.lists3{\n    display:inline-block;\n    width: 25%;\n    background-color: red;\n    height:50px;\n\n}\n\n.lists4{\n    display:inline-block;\n    width: 25%;\n    background-color:pink;\n    height:50px;\n\n}\n\n.bold{\n    font-family: 'Cera GR Medium', Fallback, sans-serif !important;\n}\n\n@media screen and (max-width: 1550px){\n    .bio {\n        margin-left:10vw;\n        margin-right:5vw;\n        }\n}\n\n@media screen and (max-width: 1024px){\n    .bio {\n\n        margin-left:1vw;\n        margin-right:1vw;\n        width:100%;\n        }\n    .bio-content{\n        width:100%;\n        max-width:none;\n    }\n\n    .bio-title{\n        float: none;\n        width:100%;\n        text-align: left;\n        padding-bottom: 3vh;\n    }\n}\n\n@media screen and (max-width: 768){\n\n\n}\n"
 
 /***/ }),
 
@@ -253,7 +248,7 @@ module.exports = "h1 {\n    font-family: 'Cera GR Medium', Fallback, sans-serif 
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"hello-container\">\n  <div id=\"intro\">\n    <h1 id=\"hello\">hello!</h1>\n    <h1 class=\"greeting\">i’m\n      <span id=\"name\">Kevin Tran</span>, a full stack developer with interests in web development, UX/UI, and machine learning.</h1>\n\n    <h2>\n      <a href=\"mailto:kevin.tran.kt@gmail.com\" target=\"_blank\">email</a>\n      <a href=\"\" target=\"_blank\"> resume</a>\n      <a href=\"https://github.com/kevintrankt/\" target=\"_blank\"> github</a>\n      <a href=\"https://www.linkedin.com/in/kevintrankt/\" target=\"_blank\"> linkedin</a>\n      <a href=\"https://www.instagram.com/swaggybars/\" target=\"_blank\"> instagram</a>\n    </h2>\n  </div>\n\n  <h3 id=\"credit\">(under construction)\n    <br>designed & developed by kevin tran 2018</h3>\n\n</div>"
+module.exports = "<div class=\"hello-container\">\n  <div id=\"intro\">\n    <h1 id=\"hello\">hello!</h1>\n    <h1 class=\"greeting\">i’m\n      <span id=\"name\">Kevin Tran</span>, a full stack developer with interests in web development, UX/UI, and machine\n      learning.</h1>\n\n    <h2>\n      <a href=\"mailto:kevin.tran.kt@gmail.com\" target=\"_blank\">email</a>\n      <a href=\"https://kevintrankt.com/Kevin_Tran_Resume.pdf\" target=\"_blank\"> resume</a>\n      <a href=\"https://github.com/kevintrankt/\" target=\"_blank\"> github</a>\n      <a href=\"https://www.linkedin.com/in/kevintrankt/\" target=\"_blank\"> linkedin</a>\n      <a href=\"https://www.instagram.com/swaggybars/\" target=\"_blank\"> instagram</a>\n    </h2>\n  </div>\n\n  <h3 id=\"credit\">(under construction)\n    <br>designed & developed by kevin tran 2018</h3>\n  <particles [params]=\"myParams\" [style]=\"myStyle\" [width]=\"width\" [height]=\"height\"></particles>\n\n</div>"
 
 /***/ }),
 
@@ -280,8 +275,132 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 var HelloComponent = /** @class */ (function () {
     function HelloComponent() {
+        this.myStyle = {};
+        this.myParams = {};
+        this.width = 100;
+        this.height = 100;
     }
     HelloComponent.prototype.ngOnInit = function () {
+        this.myStyle = {
+            position: 'fixed',
+            width: '100%',
+            height: '100%',
+            'z-index': 5,
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0
+        };
+        this.myParams = {
+            particles: {
+                number: {
+                    value: 40,
+                    density: {
+                        enable: true,
+                        value_area: 800
+                    }
+                },
+                color: {
+                    value: '#808080'
+                },
+                shape: {
+                    type: 'circle',
+                    stroke: {
+                        width: 0,
+                        color: '#000000'
+                    },
+                    polygon: {
+                        nb_sides: 5
+                    },
+                    image: {
+                        src: 'img/github.svg',
+                        width: 100,
+                        height: 100
+                    }
+                },
+                opacity: {
+                    value: 0.5,
+                    random: false,
+                    anim: {
+                        enable: false,
+                        speed: 1,
+                        opacity_min: 0.1,
+                        sync: false
+                    }
+                },
+                size: {
+                    value: 2,
+                    random: true,
+                    anim: {
+                        enable: false,
+                        speed: 20,
+                        size_min: 0.1,
+                        sync: false
+                    }
+                },
+                line_linked: {
+                    enable: true,
+                    distance: 300,
+                    color: '#808080',
+                    opacity: 0.4,
+                    width: 2
+                },
+                move: {
+                    enable: true,
+                    speed: 12,
+                    direction: 'none',
+                    random: false,
+                    straight: false,
+                    out_mode: 'out',
+                    bounce: false,
+                    attract: {
+                        enable: false,
+                        rotateX: 600,
+                        rotateY: 1200
+                    }
+                }
+            },
+            interactivity: {
+                detect_on: 'window',
+                events: {
+                    onhover: {
+                        enable: true,
+                        mode: 'repulse'
+                    },
+                    onclick: {
+                        enable: true,
+                        mode: 'push'
+                    },
+                    resize: true
+                },
+                modes: {
+                    grab: {
+                        distance: 800,
+                        line_linked: {
+                            opacity: 1
+                        }
+                    },
+                    bubble: {
+                        distance: 800,
+                        size: 80,
+                        duration: 2,
+                        opacity: 0.8,
+                        speed: 3
+                    },
+                    repulse: {
+                        distance: 100,
+                        duration: 0.4
+                    },
+                    push: {
+                        particles_nb: 4
+                    },
+                    remove: {
+                        particles_nb: 2
+                    }
+                }
+            },
+            retina_detect: true
+        };
     };
     HelloComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
