@@ -9,10 +9,10 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.1635266c0d380bbdc41d.js",
+        "/main.7185ebd5a9fea2713a64.js",
         "/polyfills.2f4a59095805af02bd79.js",
         "/runtime.a66f828dca56eeb90e02.js",
-        "/styles.e8824d391baaec9d9c61.css"
+        "/styles.a9870da441676bcae3ac.css"
       ],
       "patterns": []
     },
@@ -40,7 +40,10 @@
         "/assets/icons/icon-384x384.png",
         "/assets/icons/icon-512x512.png",
         "/assets/icons/icon-72x72.png",
-        "/assets/icons/icon-96x96.png"
+        "/assets/icons/icon-96x96.png",
+        "/assets/projects/csvreader.png",
+        "/assets/projects/mirror.png",
+        "/assets/projects/roomii.png"
       ],
       "patterns": []
     }
@@ -67,12 +70,15 @@
     "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
     "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/assets/projects/csvreader.png": "22245ffc2a44fd89ff1f77ae67d405dbcbbc2c26",
+    "/assets/projects/mirror.png": "9b7a5fd87a7bf598c84d0eab42d12f1d8398ab6d",
+    "/assets/projects/roomii.png": "7708bd8e1a61b5431d2330796fc1525b04648d8f",
     "/favicon.ico": "cef5a3d17147d5f18a859b65e5ae9154dc871d2f",
-    "/index.html": "6657b5a4229b071bd0feb198e16a0a6fa75652d3",
-    "/main.1635266c0d380bbdc41d.js": "aa2b7cc6e0a6a4b76008a4ea19f14127b7b01b04",
+    "/index.html": "5b605beaca88635c990ba9106e701e5202bbaea5",
+    "/main.7185ebd5a9fea2713a64.js": "2ac6ca4a1f1fc05266a415ffe45377fbef81eec9",
     "/polyfills.2f4a59095805af02bd79.js": "8949bb1b1e302dda246f6ed9c2da703270360b1f",
     "/runtime.a66f828dca56eeb90e02.js": "078e320cc6fdaf355836c3b1c52b059cdd33fc7e",
-    "/styles.e8824d391baaec9d9c61.css": "5cbfe5ef336d99342cb2a363ed150373e858448c"
+    "/styles.a9870da441676bcae3ac.css": "8ea370b1d120ed4f2e77c097a4702aada7602ccb"
   },
   "navigationUrls": [
     {
