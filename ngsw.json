@@ -9,7 +9,7 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.bfd25621b2f67f3db2f7.js",
+        "/main.c825f9cd6edeb391b9cc.js",
         "/polyfills.2f4a59095805af02bd79.js",
         "/runtime.a66f828dca56eeb90e02.js",
         "/styles.a9870da441676bcae3ac.css"
@@ -41,6 +41,7 @@
         "/assets/icons/icon-512x512.png",
         "/assets/icons/icon-72x72.png",
         "/assets/icons/icon-96x96.png",
+        "/assets/img.png",
         "/assets/projects/csvreader.png",
         "/assets/projects/mirror.png",
         "/assets/projects/roomii.png"
@@ -70,12 +71,13 @@
     "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
     "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/assets/img.png": "7f2f03bfcd7681cd5d99427e95b7fff09d6543e0",
     "/assets/projects/csvreader.png": "22245ffc2a44fd89ff1f77ae67d405dbcbbc2c26",
     "/assets/projects/mirror.png": "9b7a5fd87a7bf598c84d0eab42d12f1d8398ab6d",
     "/assets/projects/roomii.png": "7708bd8e1a61b5431d2330796fc1525b04648d8f",
     "/favicon.ico": "cef5a3d17147d5f18a859b65e5ae9154dc871d2f",
-    "/index.html": "02bf30628b1874104e60dcd22fdf6642d909a46d",
-    "/main.bfd25621b2f67f3db2f7.js": "aa732b3ca5401bce6f72bd91df5ac5e6c94ceef5",
+    "/index.html": "f6e7a9f95020ab4c0ccfbfb8ce4e5ba023924fff",
+    "/main.c825f9cd6edeb391b9cc.js": "c75e388b93254bfce82b3142b60db3e05f88ffa2",
     "/polyfills.2f4a59095805af02bd79.js": "8949bb1b1e302dda246f6ed9c2da703270360b1f",
     "/runtime.a66f828dca56eeb90e02.js": "078e320cc6fdaf355836c3b1c52b059cdd33fc7e",
     "/styles.a9870da441676bcae3ac.css": "8ea370b1d120ed4f2e77c097a4702aada7602ccb"
