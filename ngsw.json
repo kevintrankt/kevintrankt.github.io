@@ -9,7 +9,7 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.55a9aed3d8761f34dc97.js",
+        "/main.85db0b301e5ccc6caa47.js",
         "/polyfills.2f4a59095805af02bd79.js",
         "/runtime.a66f828dca56eeb90e02.js",
         "/styles.a9870da441676bcae3ac.css"
@@ -43,8 +43,10 @@
         "/assets/icons/icon-96x96.png",
         "/assets/img.png",
         "/assets/projects/csvreader.png",
+        "/assets/projects/kboy.png",
         "/assets/projects/mirror.png",
-        "/assets/projects/roomii.png"
+        "/assets/projects/roomii.png",
+        "/assets/projects/yelpreview.gif"
       ],
       "patterns": []
     }
@@ -73,11 +75,13 @@
     "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/assets/img.png": "7f2f03bfcd7681cd5d99427e95b7fff09d6543e0",
     "/assets/projects/csvreader.png": "4ba64060977c14bbf9c3343f985c2b0e11f6692e",
+    "/assets/projects/kboy.png": "86dd463c2db4ba57c373c07f60b3e21c750524c0",
     "/assets/projects/mirror.png": "9b7a5fd87a7bf598c84d0eab42d12f1d8398ab6d",
     "/assets/projects/roomii.png": "7708bd8e1a61b5431d2330796fc1525b04648d8f",
+    "/assets/projects/yelpreview.gif": "3b733df1e4717bb56d8b7763149842871dc8b054",
     "/favicon.ico": "cef5a3d17147d5f18a859b65e5ae9154dc871d2f",
-    "/index.html": "b2046ce776e3d75e9f634bc000962719e1b84bb1",
-    "/main.55a9aed3d8761f34dc97.js": "b7f1fed83949e66089c0e341a0912c499026fcfc",
+    "/index.html": "0787ff7186822ac0e6374aafd78f39338547a2a3",
+    "/main.85db0b301e5ccc6caa47.js": "d0d8f2abed587d088766d6d4bda93469bf94d801",
     "/polyfills.2f4a59095805af02bd79.js": "8949bb1b1e302dda246f6ed9c2da703270360b1f",
     "/runtime.a66f828dca56eeb90e02.js": "078e320cc6fdaf355836c3b1c52b059cdd33fc7e",
     "/styles.a9870da441676bcae3ac.css": "8ea370b1d120ed4f2e77c097a4702aada7602ccb"
